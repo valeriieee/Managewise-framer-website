@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background: rgb(255, 192, 203, 0.3); */
+    background: #FDF2EC;
+
+}
+
+.orange{
+    /* color: rgb(255, 68, 0, 0.7); */
+    color: #FE8162;
+}
+
+.container{
+    border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 90em;
+    gap: 1em;
+    margin-top: ;
+
+}
+
+header{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 90em;
+    gap: 1em;
+    
+}
+
+.managewise-icon{
+    border: 1px solid red;
+
+}
+
+.managewise-icon img{
+    
+}
+
+.navbox{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* .navbox a{
+    display: 
+} */
+
+.navbar{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1.5em;
+}
+
+.navbar .nav-link::before {
+    content: "\2022";
+    color: rgba(0, 0, 0, 0.514);
+    /* font-weight: bold; */
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+  }
+
+.navbar a{
+    text-decoration: none;
+    margin-right: 2.5em;
+    color: rgba(0, 0, 0, 0.77);
+    font-size: larger;
+    
+}
+
+.navbar a:hover{
+    color: #A27BFE;
+}
+
+.nav-link{
+    
+}
+
+.features{
+    
+}
+
+.BuyTemplate{
+    font-weight: bolder;
+    border-radius: 5px;
+    padding: 0.5em;
+    background-color: white;
+
+}
+
+.BuyTemplate:hover{
+    border: 1px solid black;
+}
+
+.title{
+    border: 1px solid red;
+    width: 100%;
+    max-width: 70em;
+    margin-top: 6em;
+}
+
+.welcome{
+    border: 1px solid rgb(128, 0, 128, 0.6);
+    border-radius: 5px;
+    padding: 0.5em;
+    width: 100%;
+    max-width: 15em;
+    text-align: center;
+    margin: 1em auto;
+    color: #964DFF;
+    font-size: ;
+
+}
+
+.main-title{
+    border: 1px solid red;
+    width: 100%;
+    max-width: 50em;
+    text-align: center;
+    margin: 0.5em auto;
+    font-weight: bolder;
+    font-size: 3rem;
+
+}
+
+.sub-title{
+    border: 1px solid red;
+    width: 100%;
+    max-width: 39em;
+    text-align: center;
+    line-height: 1.9em;
+    margin: 0.5em auto 1.5em;
+    font-weight: ;
+    font-size: 1.05rem;
+    color: #9A9796;
+}
+
+.start{
+    border: 1px solid red;
+    width: 100%;
+    max-width: 50em;
+    text-align: center;
+    margin: 0.5em auto;
+}
+
+.getStarted{
+    background-color: #8247FF;
+    color: white;
+    width: 11.5em;
+    padding: 0.75em;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 7px;
+    outline: none;
+    margin-right: 0.8em;
+    cursor: pointer;
+
+}
+
+.watch{
+    background-color: white;
+    color: black;
+    padding: 0.7em;
+    border: 1px solid rgba(0, 0, 0, 0.358);
+    border-radius: 7px;
+    font-weight: bold;
+    font-size: 18px;
+    width: 11.5em;
+    padding: 0.75em;
+    margin-left: 0.8em;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .container{
+        width: 100%;
+    }
+
+    header{
+        width: 100%;
+        max-width: 80%;
+    }
+}
